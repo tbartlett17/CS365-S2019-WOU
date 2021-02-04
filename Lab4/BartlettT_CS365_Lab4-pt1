@@ -1,0 +1,15 @@
+//PSUEDO CODE FOR PART 1 OF LAB	4
+//Implement with semaphores
+
+semaphore bridgeOpen = 1;
+
+void enterBridge()	
+{
+	bridgeOpen.wait();
+}
+
+void exitBridge()
+{
+	bridgeOpoen.signal();
+}
+

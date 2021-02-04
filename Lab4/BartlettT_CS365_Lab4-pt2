@@ -1,0 +1,39 @@
+//PSUEDOCODE
+
+northQueue;
+southQueue;
+int onBridge = 0;
+bool bridgeOpen;
+
+
+enterBrigdeNorthbouth()
+{
+	farmer = pop northqueue;
+	while (onBridge > 0)
+	{
+		bridgeOpen is false;
+	}
+	onBridge = 1;
+}
+
+exitBrigdeNorthbouth()
+{
+	onBridge = 0;
+	bridgeOpen is true;
+}
+
+enterBrigdeSouthbouth()
+{
+	farmer = pop southQueue;
+	while (onBridge > 0)
+	{
+		bridgeOpen is false;
+	}
+	onBridge = 1;
+}
+
+exitBrigdeSouthbouth()
+{
+	onBridge = 0;
+	bridgeOpen is true;
+}
